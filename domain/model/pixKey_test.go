@@ -5,8 +5,8 @@ import (
 
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/wellingtonolive/codepix/domain/model_test"
 	"github.com/stretchr/testify/require"
+	"github.com/wellingtonolive/codepix/domain/model"
 )
 
 func TestModel_NewPixKey(t *testing.T) {
